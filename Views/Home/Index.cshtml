@@ -1,0 +1,29 @@
+﻿@model UploadFilesViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class ="container">
+    <form asp-contoller = "Home" asp-action ="UploadFile" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input required asp-for="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input required asp-for="Password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group">
+        <label for="exampleFile1">Document 1</label>
+        <input required asp-for="Files" type="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx, .rtf" class="form-control" id="exampleFile1">
+    </div>
+    <div class="form-group">
+        <label for="exampleFile2">Document 2</label>
+        <input required asp-for="Files" type="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx, .rtf" class="form-control" id="exampleFile2">
+    </div>
+    <div class="form-group">
+        <label for="exampleFile3">Document 3</label>
+        <input required asp-for="Files" type="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx, .rtf" class="form-control" id="exampleFile3">
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kemal\\Desktop\\google-storage-api\\googlestorageapi.webui\\googlestorageapi.webui.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kemal\\Desktop\\google-storage-api\\googlestorageapi.webui\\googlestorageapi.webui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kemal\\Desktop\\google-storage-api\\googlestorageapi.webui\\googlestorageapi.webui.csproj",
+        "projectName": "googlestorageapi.webui",
+        "projectPath": "C:\\Users\\Kemal\\Desktop\\google-storage-api\\googlestorageapi.webui\\googlestorageapi.webui.csproj",
+        "packagesPath": "C:\\Users\\Kemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kemal\\Desktop\\google-storage-api\\googlestorageapi.webui\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kemal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
